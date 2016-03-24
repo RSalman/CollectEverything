@@ -102,7 +102,7 @@ int main(void) {
 		infile.close();	
 	}
 
-	// game loop	
+	// Main game loop	
 	while (!hasWon){
 		if (gamePausedPressed) {
 			cout << string( 100, '\n' );
